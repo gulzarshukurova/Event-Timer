@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+
+            <!-- <div class="eventbox">
+                <div class="datebox" > 15</div>
+                <div class="titlebox" > khbjhdf</div>
+            </div> -->
+
+            
+
+        </div>
+        <div class="right">
+
+            <div class="right-content">
+                <h2 class="new_event">create new event</h2>
+                <form>
+                    <div class="Title">
+                        <label for="Title"> Title <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                        <input id="first-title" class="first-title" type="text" required>
+                        <!-- <datalist id="l1">
+                            <option>Banana</option>
+                            <option>Cherry</option>
+                            <option>Apple</option>
+                            <option>Strawberry</option>
+                            <option>Lemon</option>
+                            <option>Orange</option>
+                          </datalist> -->
+                        <label for="description"> Description <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                        <textarea  class="textarea" name="description" id="description" cols="15" rows="5" maxlength="3" required></textarea>
+                    </div>
+                    <h3 class="new_event" >choose date for event</h3>
+                    <div class="time-date">
+                        <label for="Title"> <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                        <input id="date" type="date" required>
+                        <label for="Description"> <abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+                        <input id="time" type="time" required>
+                    </div >
+                    <button id="button" class="button"> add event</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js" ></script>
+
+</body>
+
+</html>

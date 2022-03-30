@@ -1,0 +1,119 @@
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+.left {
+    background-color:aqua;
+    width: 65%;
+    
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+   
+
+}
+
+.right {
+    background-color: pink;
+    width: 35%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.new_event {
+    height: 50px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.button {
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    text-transform: capitalize;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.time-date {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.first-title {
+
+    
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+.textarea {
+    margin-bottom: 2rem;
+    border-radius: 4px;
+
+}
+.right-content {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.event-box {
+    height: 10rem;
+    width: 50rem;
+   display: flex;
+   margin: 1.5rem 0;
+   border-radius: 0.7rem;
+    
+    
+}
+.date-box{
+
+    background-color:yellow !important;
+   
+    width: 25%;
+    
+
+
+}
+.description{
+    background-color:cornsilk;
+    width: 75%;
+    
+
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  textarea:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  input:focus:invalid {
+    box-shadow: none;
+  }
